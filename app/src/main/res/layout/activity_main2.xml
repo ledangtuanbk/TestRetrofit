@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ldt.testretrofit.activity.Main2Activity">
+
+    <Button
+        android:id="@+id/btnGetUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get User"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/btnGetUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Users"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetUser" />
+
+    <Button
+        android:id="@+id/btnGetUserError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get User Error"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetUsers"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp" />
+</android.support.constraint.ConstraintLayout>
